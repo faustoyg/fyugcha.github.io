@@ -5,16 +5,10 @@ layout: post
 categories: media
 ---
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.
-
+X_train tiene un tamaño de 26x61 y y_train de 26. De las 26 oraciones se tiene una proporción de (8,6,7,5) correspondientes a consumo, reducir_planilla, reportar_corte y saludo.
 
 ## Red Neuronal
-
-
-## Images
+Se utilizó una red neuronal de 3 capas y una tasa de aprendizaje de 0.001. Se utiliza CrossEntropyLoss  para predecir las categorías.
 
 Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
 
