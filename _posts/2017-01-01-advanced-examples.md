@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Resultados"
 mathjax: true
 layout: post
 categories: media
@@ -56,8 +56,12 @@ A wrapper `div` with the class `large` can be used to increase the width of an i
 
 [Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
 
-## Embedded content
+## Bibliografia
 
-You can also embed a lot of stuff, for example from YouTube, using the `embed.html` include.
+[jekyll-gh]
 
-{% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/patrickloeber/pytorch-chatbot
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+https://github.com/patrickloeber/pytorch-chatbot
