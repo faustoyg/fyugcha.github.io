@@ -1,11 +1,19 @@
 ---
-title: "Welcom"
+title: "Preprocesamiento"
 layout: post
 ---
 
-Se probó distintos procesamientos de la variable "all_words"
+## Introducción
+Como proyecto final de clase se ha implementado un Chatbot con temática de atención al cliente de una empresa eléctrica.
 
-Se trabajó con 26 oraciones
+Los datos de texto para el entrenamiento están en un archivo json y consisten de 26 oraciones y 4 categorías:
+
+* Saludos
+* Curva de consumo
+* Reducir planilla
+* Reportar corte
+
+Se probó distintos procesamientos de la variable "all_words"
 
 |       Técnica       |   Número palabras   |
 |---------------------|---------------------|
@@ -14,26 +22,14 @@ Se trabajó con 26 oraciones
 | Lematizacion NLTK   |         58          |
 | Lematizacion Stanza |         57          |
 
-## Code
-
-Source code can be included by fencing the code with three backticks. Syntax highlighting works automatically when specifying the language after the backticks.
-
-This would be rendered as:
+Se trabajó con Stemming de NLTK utilizando como stemmer SnowballStemmer
 
 ```python
-function foo () {
-    return "bar";
-}
+stemmer = SnowballStemmer("spanish")
+def stem(word):
+    return stemmer.stem(word.lower())
 ```
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-all_words = [stem(w) for w in all_words_orig if w not in ignore_words]
-all_words = sorted(set(all_words))
-tags = sorted(set(tags))
-{% endhighlight %}
+Con estas consideraciones se forma Bag of Words de donde se obtiene los datos de entrenamiento.
 
 
