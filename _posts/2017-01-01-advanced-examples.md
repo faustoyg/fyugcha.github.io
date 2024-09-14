@@ -6,7 +6,7 @@ categories: media
 ---
 
 Se ejecuta el chatbot y se obtiene el siguiente diálogo.
-![Chat](https://github.com/faustoyg/fyugcha.github.io/blob/ab34a964eea7a574d7153141b4842627859b3ea6/chat.jpg)
+![Chat](https://github.com/faustoyg/fyugcha.github.io/blob/ab34a964eea7a574d7153141b4842627859b3ea6/chat.JPG)
 
 Se han realizado 4 consultas y ha categorizado de manera correcta cada una.
 
