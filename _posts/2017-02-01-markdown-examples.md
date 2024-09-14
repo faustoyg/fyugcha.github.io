@@ -14,26 +14,9 @@ Upload an image to the *assets* folder and embed it with `![title](/assets/name.
 
 A wrapper `div` with the class `large` can be used to increase the width of an image or iframe.
 
+![Red](https://github.com/faustoyg/fyugcha.github.io/blob/3c9101d5c76a7821c7ea8e8be1b65cb40391c4ea/assets/red.jpg)
+
+El modelo se guarda en el archivo modelo.pth
+
 ![Flower](https://github.com/faustoyg/fyugcha.github.io/blob/497441db5ee526453f4c3cacb18ce72d740d4179/red.jpg)
 
-
-
-[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
-
-## Lists
-
-### Unordered
-
-* First item
-* Second item
-* Third item
-    * First nested item
-    * Second nested item
-
-### Ordered
-
-1. First item
-2. Second item
-3. Third item
-    1. First nested item
-    2. Second nested item
