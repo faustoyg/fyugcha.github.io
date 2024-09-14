@@ -10,7 +10,7 @@ X_train tiene un tamaño de 26x61 y y_train de 26. De las 26 oraciones se tiene 
 ## Red Neuronal
 Se utilizó una red neuronal de 3 capas y una tasa de aprendizaje de 0.001. Se utiliza CrossEntropyLoss  para predecir las categorías.
 
-![Red](https://github.com/faustoyg/fyugcha.github.io/blob/3c9101d5c76a7821c7ea8e8be1b65cb40391c4ea/assets/red.jpg)
+![Red](https://raw.githubusercontent.com/faustoyg/fyugcha.github.io/master/red.jpg)
 
 El modelo se guarda en el archivo modelo.pth
 
